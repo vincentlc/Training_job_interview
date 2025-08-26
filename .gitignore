@@ -1,0 +1,53 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.log
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ------------------------
+# C++
+# ------------------------
+# Object & binary files
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+*.a
+*.lib
+
+# Build directories
+build/
+cmake-build-*/
+
+# ------------------------
+# General
+# ------------------------
+.DS_Store
+Thumbs.db
+*.swp
