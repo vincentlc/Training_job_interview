@@ -1,6 +1,4 @@
----
 
-```markdown
 # 🛠️ Tech Interview Practice
 
 This repository contains my **practice projects, coding exercises, and TDD examples** in **Python** and **C++**, created as part of a structured self-training program to prepare for technical interviews.  
@@ -37,9 +35,9 @@ tech-interview-practice/
 - Install dependencies:
   ```bash
   pip install pytest
-````
+  ```
 
-* Run tests for a given exercise:
+- Run tests for a given exercise:
 
   ```bash
   pytest Python/Day1_dict_set/test_word_count.py
@@ -59,19 +57,19 @@ tech-interview-practice/
 
 ## 📚 Topics Covered
 
-* **Python**: dict, set, list comprehensions, enumerate, zip, map/filter, OOP, TDD with pytest
-* **C++**: STL containers (map, unordered\_map, set, vector), iterators, OOP, TDD with GoogleTest
-* **Algorithms**: sorting, two-pointer, binary search, recursion, basic dynamic programming
-* **TDD**: test-first approach, pytest (Python), GoogleTest (C++)
-* **Git**: branching, commits, pull requests, professional workflow
+- **Python**: dict, set, list comprehensions, enumerate, zip, map/filter, OOP, TDD with pytest
+- **C++**: STL containers (map, unordered\_map, set, vector), iterators, OOP, TDD with GoogleTest
+- **Algorithms**: sorting, two-pointer, binary search, recursion, basic dynamic programming
+- **TDD**: test-first approach, pytest (Python), GoogleTest (C++)
+- **Git**: branching, commits, pull requests, professional workflow
 
 ---
 
 ## 🎯 Goal
 
-* Strengthen fundamentals in **Python and C++**
-* Practice common **algorithm and data structure patterns** used in interviews
-* Apply **test-driven development** and clean coding practices
-* Build a **visible portfolio** of structured, documented projects
+- Strengthen fundamentals in **Python and C++**
+- Practice common **algorithm and data structure patterns** used in interviews
+- Apply **test-driven development** and clean coding practices
+- Build a **visible portfolio** of structured, documented projects
 
 
