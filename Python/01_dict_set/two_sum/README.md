@@ -20,7 +20,7 @@ Assume that each input has exactly one solution, and you cannot use the same ele
 
 ## 🧪 How to Run
 ```bash
-pytest test_two_sum.py
+pytest test_two_sum.py -v
 ```
 
 ---
