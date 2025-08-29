@@ -1,23 +1,4 @@
 
-def uniqueString2(string: str):
-    index = 0
-    list_dictionarry = dict({string[0]:0})
-    print(f'index={index} list_dictionarry={list_dictionarry}')
-    for character in string:
-        if(character in list_dictionarry): 
-            list_dictionarry[character]+=1
-        else:
-            list_dictionarry[character]=1
-    print(list_dictionarry)
-    for character in string:
-        if list_dictionarry[character]==1:
-            return index
-        else:
-            index+=1
-    
-    return -1
-
-
 def uniqueString(string: str):
     # Edge case: empty string
     if not string:
