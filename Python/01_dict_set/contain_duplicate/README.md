@@ -21,20 +21,6 @@ Output: True
 
 ---
 
-## **Installation**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/contain_duplicate.git
-   cd contain_duplicate
-   ```
-
-2. Install dependencies (if any):
-   ```bash
-   pip install pytest  # Only needed for running tests
-   ```
-
----
-
 ## **Usage**
 ### **As a Function**
 ```python
