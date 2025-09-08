@@ -12,12 +12,11 @@ def count_element(text:str)->dict:
         for training purpose 
     """
     dict_text = {}
-    for char in enumerate(text.lower()):
+    for char in text.lower():
         if char in dict_text:
             dict_text[char]+=1
         else:
             dict_text[char]=1
-    
     dict_text = dict(sorted(dict_text.items())) # sort the dict
     return dict_text
 
@@ -44,6 +43,7 @@ def is_anagram(text: str, anagram: str) -> bool:
         return False
 
     dict_text, dict_anagram= map(count_element,(text, anagram))
+    print(dict_text, dict_anagram)
     return  dict_text == dict_anagram
 
 
